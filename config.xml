@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+		id          = "SMS-sender"
+        version     = "1.0.1" >
+
+    <name>SMS-sender</name>
+    <description>SMS-sender</description>
+    <author href="http://github.com/skaraptan" email="s.karaptan@gmail.com">
+		Serhiy Karaptan
+	</author>
+	<platform name="ios" />
+	
+	<plugin name="cordova-plugin-device" spec="~1.1.4" />
+	<plugin name="cordova-plugin-dialogs" spec="~1.3.1" />
+	<plugin name="cordova-sms-plugin"/>
+</widget>
